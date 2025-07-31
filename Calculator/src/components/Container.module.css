@@ -1,0 +1,10 @@
+.divContainer{
+  max-width: 300px;
+  background-color: rgba(54, 54, 61, 0.859);
+  border: 3px solid rgba(22, 14, 52, 0.123);
+  justify-self: center;
+  padding: 0.5rem;
+  border-radius: 20px;
+  user-select: none;
+  /* box-shadow: 1px white; */
+}

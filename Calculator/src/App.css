@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+*{
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+}
