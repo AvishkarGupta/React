@@ -1,0 +1,24 @@
+.todolistDiv{
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.327);
+  padding: 0.5rem;
+  background-color: rgba(166, 19, 19, 0.138);
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.todoitem{
+  color: white;
+  font-weight: 600;
+}
+.todobutton{
+  color: white;
+  font-weight: 600;
+  background-color: rgb(153, 51, 33);
+  padding: 0.2rem;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+.change{
+  background-color: rgba(166, 19, 19, 0.281);
+}
