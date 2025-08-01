@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+.containercontent{
+  display: flex;
+    height: 100vh;
+}
+
+/* .header{
+  flex-wrap: nowrap;
+  container-type:fixed;
+  max-height: 72px;
+} */
+.header{
+  background-color: #41729f;
+}
+#signUp, #login{
+  background-color:#0c2d48;
+  color: white;
+  border: 2px solid white;
+}
+
+#sidebar{
+  height: 100vh;  
+  background-color: #41729f;
+}
+.activee{
+  background-color: #274472;
+}
+
+.content{
+  width: 100%;
+}
+.postCard{
+  margin: 3rem 6rem;
+  padding: 0.2rem;
+  background-color: rgba(202, 152, 25, 0.53);
+}
+#postCard{
+  background-color: rgba(25, 63, 202, 0.111);
+}
+.postCardTitle{
+  display: flex;
+  justify-content: start;
+  /* border: 1px solid rgba(0, 0, 0, 0.237); */
+  border-radius: 5px;
+}
+.postCardUserId{
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  color: rgb(242, 179, 84);
+  text-shadow: 1px 1px 2px black;
+}
+.postCardUsertags{
+  margin: 0rem 0.1rem;
+  opacity: 0.3;
+}
+
+/* post creation */
+
+.createPost{
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  /* background-color: rgba(0, 21, 255, 0.067); */
+  border: 2px solid rgba(25, 25, 26, 0.027);
+  box-shadow: -1px 1px rgba(1, 25, 244, 0.238);
+  border-radius: 10px;
+  padding: 1rem;
+}
+.sidebar-nav .nav-item .active {
+        background-color: #05080c; /* Example: Bootstrap primary blue */
+        color: #fff; /* Example: White text */
+    }
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+}
