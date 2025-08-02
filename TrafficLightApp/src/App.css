@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+*{
+  color: white;
+  margin: 10px 100px;
+  align-content: center;
+  justify-self: center;
+}
+
+.light{
+  margin-bottom:30px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+}
